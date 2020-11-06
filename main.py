@@ -1,0 +1,12 @@
+from CreateInputTAble import creteInputTable
+from createReportScripts import inputdateFrom_DWH_FACT_Tables_SignOne_SignTwo, inputdateFrom_DWH_FACT_Table_froad_sign3, \
+    inputdateFrom_DWH_FACT_Table_froad_sign4
+from directFunction import startupProgramm
+from writeInBase import dropAllTable
+
+dropAllTable()
+creteInputTable()
+startupProgramm()
+inputdateFrom_DWH_FACT_Tables_SignOne_SignTwo()
+inputdateFrom_DWH_FACT_Table_froad_sign3()
+inputdateFrom_DWH_FACT_Table_froad_sign4()
